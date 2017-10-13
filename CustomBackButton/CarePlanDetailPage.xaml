@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<custom:ExtendedContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="CustomBackButton.CarePlanDetailPage" xmlns:custom="clr-namespace:CustomBackButton">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Save" Priority="0" Order="Primary" />
+        <custom:LeftToolbarItem Text="Cancel" Priority="1" Order="Primary" />
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <StackLayout Margin="20">
+            <Label FontSize="Large" Text="Care Plans Details"  HorizontalTextAlignment="Center" />
+        </StackLayout>
+    </ContentPage.Content>
+</custom:ExtendedContentPage>
